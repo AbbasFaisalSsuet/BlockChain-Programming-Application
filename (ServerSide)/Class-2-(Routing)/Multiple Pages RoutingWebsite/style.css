@@ -1,0 +1,366 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+.navbar {
+    background-color: rgba(216, 216, 216, 0.835);
+    position: sticky;
+    top: 0;
+}
+.navbar-brand p {
+    color: black;
+    font-family: cursive;
+    font-weight: bold;
+    font-size: 1.5rem;
+    padding-top: 10px;
+}
+.navbar-brand p:hover {
+    transition: tranform.7s ease;
+    box-shadow: rgba(39, 144, 170, 0.856);
+    transform: scale(1.1);
+}
+.navbar ul li>a {
+    font-family: cursive;
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin-right: 1.2rem;
+}
+.navbar ul li>a:hover {
+    transition: tranform.7s ease;
+    box-shadow: rgba(39, 144, 170, 0.856);
+    transform: scale(1.2);
+    background-color: rgba(39, 144, 170, 0.856);
+    border-radius: 10px;
+}
+.fa-user-circle {
+    color: black;
+    font-size: 30px !important;
+    padding-top: 7px;
+}
+.carousel-caption> h5,p{
+    color: rgba(216, 216, 216, 0.835);
+    font-weight: bold;
+    font-family: cursive;
+    font-size: 1.5rem;
+}
+.Marq {
+    background-color: rgba(216, 216, 216, 0.835);
+    margin-top: 20px;
+    color: black;
+    font-weight: bold;
+    font-family: cursive;
+    font-size: 1.5rem;
+}
+.Heading {
+    color: rgba(39, 144, 170, 0.856);
+    margin-top: 20px;
+    text-align: center;
+    background-color: rgba(216, 216, 216, 0.835);
+}
+.Heading h1 {
+    font-size: 3rem;
+    font-weight: bold !important;
+    font-family: cursive !important;
+}
+.Brands-Area {
+  margin-top: 100px;
+}
+.Band-row {
+    justify-content: space-around;
+}
+.Band-items {
+    box-shadow: 5px 5px 5px 5px rgb(93, 91, 91);
+    border-radius: 20px;
+    width: 400px;
+    height: 250px;
+    text-align: center;
+    margin-bottom: 60px;
+    cursor: pointer;
+    transition: transform.4s ease;
+}
+.Band-items:hover {
+    box-shadow: rgba(51, 93, 104, 0.637);
+    transform: scale(1.1);
+}
+.Brands-Area .Band-items>img {
+    padding-top: 10px;
+}
+.Brands-Area .Band-items>img:hover {
+    filter: brightness(1.2);
+}
+.Brands-Area .Band-items>p {
+    padding-top: 5px;
+    color: black;
+    font-weight: bold !important;
+    font-family: cursive !important;
+    font-size: 2rem;
+}
+.Information-area {
+    background-color: rgba(216, 216, 216, 0.835);  
+    margin-top: 50px; 
+}
+.Columns {
+    width: 300px;
+    margin-top: 50px;
+    margin-left: 100px;
+}
+.Information-area .Columns a {
+    text-decoration: none;
+}
+.Text {
+    color: black;
+    font-size: 1.1rem !important;
+    font-family: cursive !important;
+}
+.Useful {
+    color: black;
+    font-size: 1.5rem;
+}
+.footer {
+    background-color: rgba(216, 216, 216, 0.835);
+    height: 80px;
+    margin-top: 10px;
+}
+.para {
+    color: black;
+    margin-left: 70px;
+    padding-top: 0px;
+}
+.Gallery {
+    margin-top: 50px;
+}
+.Gallery h1 {
+    color: rgba(39, 144, 170, 0.856);
+    text-align: center;
+    font-family: cursive;
+    font-weight: bold;
+    font-size: 3rem;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    background-color: rgba(216, 216, 216, 0.835);
+}
+.divider {
+    justify-content: space-around;
+    padding-top: 15px;
+}
+.Gallery .divider .Pictures img {
+    transition: transform.6s ease;
+}
+.Gallery .divider .Pictures img:hover{
+    transform: scale(1.1);
+    box-shadow: rgba(39, 144, 170, 0.856);
+    filter: brightness(1.1); 
+}
+.Reg-Head {
+    margin-top: 50px;
+}
+.Reg-Head h1 {
+    color: rgba(39, 144, 170, 0.856);
+    text-align: center;
+    font-family: cursive;
+    font-weight: bold;
+    font-size: 3rem;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    background-color: rgba(216, 216, 216, 0.835);
+}
+.needs-validation {
+    border: 5px solid rgba(39, 144, 170, 0.856);
+    margin-top: 50px;
+    margin-left: 15%;
+    margin-right: 15%;
+    font-family: cursive;
+    font-weight: bold;
+    font-size: 1.2rem;
+    padding: 20px;
+    background-color: rgba(216, 216, 216, 0.835);
+    border-radius: 30px;
+}
+.Mission {
+    margin-top: 50px;
+}
+.Mission h1 {
+    text-align: center;
+    background-color: rgba(216, 216, 216, 0.835);
+    color: rgba(39, 144, 170, 0.856);
+    font-family: cursive;
+    font-weight: bold;
+    font-size: 3rem;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+.Mission p {
+    text-align: center;
+    padding-top: 10px;
+    color: black;
+    font-family: cursive;
+    font-weight: bold;
+    font-size: 2rem;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.Mission .F-heading {
+    margin-top: 50px;
+}
+.Faculty {
+    margin-top: 50px;
+}
+.Faculty .card {
+    background-color: rgba(216, 216, 216, 0.835);
+}
+.Faculty .card:hover {
+    transition: tranform.7s ease;
+    box-shadow: rgba(39, 144, 170, 0.856);
+    transform: scale(1.070);
+}
+.Faculty .card:hover > img {
+    filter: brightness(1.2);
+}
+.Faculty .card .Name-Card {
+    font-weight: bold;
+    font-family: cursive;
+    text-decoration: underline;
+    font-size: 1.5rem;
+}
+.Faculty .card .card-text {
+    text-align: left;
+    font-weight: bold;
+    font-family: cursive;
+    font-size: 1.1rem;
+}
+.map {
+    margin-top: 50px;
+    border: 5px solid rgba(216, 216, 216, 0.835);
+    border-radius: 10px;
+    box-shadow: rgba(39, 144, 170, 0.856);
+}
+.contact-area {
+    margin-top: 50px;
+}
+.contact-area h1 {
+    text-align: center;
+    background-color: rgba(216, 216, 216, 0.835);
+    color: rgba(39, 144, 170, 0.856);
+    font-family: cursive;
+    font-weight: bold;
+    font-size: 3rem;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+.contact-area .form {
+    border: 5px solid rgba(39, 144, 170, 0.856);
+    margin-top: 50px;
+    margin-left: 5%;
+    margin-right: 5%;
+    font-family: cursive;
+    font-weight: bold;
+    font-size: 1.2rem;
+    padding: 20px;
+    background-color: rgba(216, 216, 216, 0.835);
+    border-radius: 30px;
+}
+.course-pannel {
+    margin-top: 20px;
+}
+.course-pannel h1 {
+    text-align: center;
+    background-color: rgba(216, 216, 216, 0.835);
+    color: rgba(39, 144, 170, 0.856);
+    font-family: cursive;
+    font-weight: bold;
+    font-size: 3rem;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+.primary {
+    margin-top: 50px;
+    background-color: rgba(216, 216, 216, 0.835);
+    color: black;
+    margin-right: 40%;
+    margin-left: 30px;
+    font-family: cursive;
+    font-size: 1.2rem;
+}
+.primary:hover {
+    transition: tranform.7s ease;
+    box-shadow: rgba(39, 144, 170, 0.856);
+    transform: scale(1.1);
+}
+.secondary {
+    background-color: rgba(39, 144, 170, 0.856);
+    color: black;
+    margin-right: 35%;
+    margin-left: 30px;
+    font-family: cursive;
+    font-size: 1.2rem;
+}
+.secondary:hover {
+    transition: tranform.7s ease;
+    box-shadow: rgba(39, 144, 170, 0.856);
+    transform: scale(1.1);
+}
+.success {
+    background-color: rgba(144, 37, 37, 0.835);
+    color: black;
+    margin-right: 30%;
+    margin-left: 30px;
+    font-family: cursive;
+    font-size: 1.2rem;
+}
+.success:hover {
+    transition: tranform.7s ease;
+    box-shadow: rgba(39, 144, 170, 0.856);
+    transform: scale(1.1);
+}
+.danger {
+    background-color: rgba(161, 100, 39, 0.883);
+    color: black;
+    margin-right: 25%;
+    margin-left: 30px;
+    font-family: cursive;
+    font-size: 1.2rem;
+}
+.danger:hover {
+    transition: tranform.7s ease;
+    box-shadow: rgba(39, 144, 170, 0.856);
+    transform: scale(1.1);
+}
+.warning {
+    background-color: rgba(162, 224, 67, 0.904);
+    color: black;
+    margin-right: 20%;
+    margin-left: 30px;
+    font-family: cursive;
+    font-size: 1.2rem;
+}
+.warning:hover {
+    transition: tranform.7s ease;
+    box-shadow: rgba(39, 144, 170, 0.856);
+    transform: scale(1.1);
+}
+.info {
+    background-color: rgba(121, 120, 120, 0.794);
+    color: black;
+    margin-right: 15%;
+    margin-left: 30px;
+    font-family: cursive;
+    font-size: 1.2rem;
+}
+.info:hover {
+    transition: tranform.7s ease;
+    box-shadow: rgba(39, 144, 170, 0.856);
+    transform: scale(1.1);
+}
+.light {
+    background-color: rgba(207, 77, 30, 0.904);
+    color: black;
+    margin-right: 10%;
+    margin-left: 30px;
+    font-family: cursive;
+    font-size: 1.2rem;
+}
+.light:hover {
+    transition: tranform.7s ease;
+    box-shadow: rgba(39, 144, 170, 0.856);
+    transform: scale(1.1);
+}
